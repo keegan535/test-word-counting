@@ -31,7 +31,7 @@ namespace WordCounting.Tests
             _expectedWordsPerLine.Add(new List<string>() { "Seventy-five", "is", "one word", "don't", "is", "one" });
             _expectedWordsPerLine.Add(new List<string>() { "Emmerich", "Emmerich's", "Emmerichs", "are", "different" });
 
-            _testFileWordCounts = new Dictionary<string, int>();
+            _testFileWordCounts = new Dictionary<string, int>(StringComparer.CurrentCultureIgnoreCase);
             foreach (List<string> words in _expectedWordsPerLine)
             {
                 foreach (string word in words)

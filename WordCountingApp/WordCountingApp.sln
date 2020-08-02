@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCountingApp", "WordCountingApp.csproj", "{FAE8C8D0-A09B-40D4-9C66-82B06260D6F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCountingApp", "WordCountingApp.csproj", "{FAE8C8D0-A09B-40D4-9C66-82B06260D6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCounting", "..\WordCounting\WordCounting.csproj", "{2ED7BF43-949E-4B5E-B3A3-4BBBBCD6F931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCountingTests", "..\WordCountingTests\WordCountingTests.csproj", "{B6E60CA7-A2B5-4679-A3AE-15EE79AB4B58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FAE8C8D0-A09B-40D4-9C66-82B06260D6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAE8C8D0-A09B-40D4-9C66-82B06260D6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAE8C8D0-A09B-40D4-9C66-82B06260D6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED7BF43-949E-4B5E-B3A3-4BBBBCD6F931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED7BF43-949E-4B5E-B3A3-4BBBBCD6F931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED7BF43-949E-4B5E-B3A3-4BBBBCD6F931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED7BF43-949E-4B5E-B3A3-4BBBBCD6F931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E60CA7-A2B5-4679-A3AE-15EE79AB4B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E60CA7-A2B5-4679-A3AE-15EE79AB4B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E60CA7-A2B5-4679-A3AE-15EE79AB4B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E60CA7-A2B5-4679-A3AE-15EE79AB4B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

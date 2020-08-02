@@ -23,9 +23,9 @@
         <Button Grid.Row="0" Grid.Column="3" IsEnabled="{Binding IsCountWordsButtonEnabled}" Command="{Binding CountWordsClickedCommand}" Content="{x:Static p:Resources.CountWordsButtonContent}"/>
         <DataGrid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding WordCountItems}" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="{x:Static p:Resources.RankColumnHeader}" Width="1*" Binding="{Binding Rank}"/>
-                <DataGridTextColumn Header="{x:Static p:Resources.WordColumnHeader}" Width="1*" Binding="{Binding Word}"/>
-                <DataGridTextColumn Header="{x:Static p:Resources.CountColumnHeader}" Width="1*" Binding="{Binding Count}"/>
+                <DataGridTextColumn IsReadOnly="true" Header="{x:Static p:Resources.RankColumnHeader}" Width="1*" Binding="{Binding Rank}"/>
+                <DataGridTextColumn IsReadOnly="true" Header="{x:Static p:Resources.WordColumnHeader}" Width="1*" Binding="{Binding Word}"/>
+                <DataGridTextColumn IsReadOnly="true" Header="{x:Static p:Resources.CountColumnHeader}" Width="1*" Binding="{Binding Count}"/>
             </DataGrid.Columns>
         </DataGrid>
         <RichTextBox Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" DataContext="{Binding SelectedFile}"/>

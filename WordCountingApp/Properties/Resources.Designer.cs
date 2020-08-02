@@ -68,5 +68,50 @@ namespace WordCountingApp.Properties {
                 return ResourceManager.GetString("AppTitle", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Count.
+        /// </summary>
+        public static string CountColumnHeader {
+            get {
+                return ResourceManager.GetString("CountColumnHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Count Words!.
+        /// </summary>
+        public static string CountWordsButtonContent {
+            get {
+                return ResourceManager.GetString("CountWordsButtonContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rank.
+        /// </summary>
+        public static string RankColumnHeader {
+            get {
+                return ResourceManager.GetString("RankColumnHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select File.
+        /// </summary>
+        public static string SelectFileButtonContent {
+            get {
+                return ResourceManager.GetString("SelectFileButtonContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Word.
+        /// </summary>
+        public static string WordColumnHeader {
+            get {
+                return ResourceManager.GetString("WordColumnHeader", resourceCulture);
+            }
+        }
     }
 }

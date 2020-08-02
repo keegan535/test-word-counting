@@ -26,3 +26,10 @@ C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcore
 C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcoreapp3.1\WordCountingApp.csproj.CoreCompileInputs.cache
 C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcoreapp3.1\WordCountingApp.genruntimeconfig.cache
 C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcoreapp3.1\WordCountingApp.csprojAssemblyReference.cache
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.dll
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\bin\Debug\netcoreapp3.1\System.Windows.Interactivity.dll
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\bin\Debug\netcoreapp3.1\WordCounting.dll
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\bin\Debug\netcoreapp3.1\WordCounting.pdb
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcoreapp3.1\WordCountingApp.csproj.CopyComplete

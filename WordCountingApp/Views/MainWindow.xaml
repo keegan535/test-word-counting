@@ -8,6 +8,26 @@
         mc:Ignorable="d"
         Title="{x:Static p:Resources.AppTitle}" Height="450" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" IsEnabled="{Binding IsSelectFileButtonEnabled}" Command="{Binding SelectFileClickedCommand}" Content="{x:Static p:Resources.SelectFileButtonContent}"/>
+        <Label Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Content="{Binding SelectedFilePath}"/>
+        <Button Grid.Row="0" Grid.Column="3" IsEnabled="{Binding IsCountWordsButtonEnabled}" Command="{Binding CountWordsClickedCommand}" Content="{x:Static p:Resources.CountWordsButtonContent}"/>
+        <DataGrid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding WordCountItems}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="{x:Static p:Resources.RankColumnHeader}" Width="1*" Binding="{Binding Rank}"/>
+                <DataGridTextColumn Header="{x:Static p:Resources.WordColumnHeader}" Width="1*" Binding="{Binding Word}"/>
+                <DataGridTextColumn Header="{x:Static p:Resources.CountColumnHeader}" Width="1*" Binding="{Binding Count}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <RichTextBox Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" DataContext="{Binding SelectedFile}"/>
     </Grid>
 </Window>

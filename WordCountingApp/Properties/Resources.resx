@@ -120,4 +120,19 @@
   <data name="AppTitle" xml:space="preserve">
     <value>Word Counting App</value>
   </data>
+  <data name="CountColumnHeader" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="CountWordsButtonContent" xml:space="preserve">
+    <value>Count Words!</value>
+  </data>
+  <data name="RankColumnHeader" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="SelectFileButtonContent" xml:space="preserve">
+    <value>Select File</value>
+  </data>
+  <data name="WordColumnHeader" xml:space="preserve">
+    <value>Word</value>
+  </data>
 </root>

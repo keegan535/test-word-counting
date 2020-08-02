@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WordCountingApp.ViewModels;
 
 namespace WordCountingApp
 {
@@ -20,9 +21,15 @@ namespace WordCountingApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly MainWindowViewModel _viewModel;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            _viewModel = new MainWindowViewModel();
+            DataContext = _viewModel;
+
         }
     }
 }

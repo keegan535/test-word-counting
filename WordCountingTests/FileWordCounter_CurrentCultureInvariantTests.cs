@@ -59,9 +59,9 @@ namespace WordCounting.Tests
         }
 
         [Test]
-        public void CountWords_InvalidFilePath_ReturnsEmptyDictionary()
+        public void CountWords_InvalidFilePath_ThrowFileNotFoundException()
         {
-            Assert.AreEqual(new Dictionary<string, int>(), FileWordCounter.CountWords("", StringComparer.CurrentCultureIgnoreCase));
+            Assert.Throws<FileNotFoundException>(new TestDelegate(()=>FileWordCounter.CountWords("", StringComparer.CurrentCultureIgnoreCase)));
         }
 
         [Test]

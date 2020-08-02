@@ -1,0 +1,9 @@
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCounting\bin\Debug\netcoreapp3.1\WordCounting.deps.json
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCounting\bin\Debug\netcoreapp3.1\WordCounting.dll
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCounting\bin\Debug\netcoreapp3.1\WordCounting.pdb
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCounting\obj\Debug\netcoreapp3.1\WordCounting.csprojAssemblyReference.cache
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCounting\obj\Debug\netcoreapp3.1\WordCounting.AssemblyInfoInputs.cache
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCounting\obj\Debug\netcoreapp3.1\WordCounting.AssemblyInfo.cs
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCounting\obj\Debug\netcoreapp3.1\WordCounting.csproj.CoreCompileInputs.cache
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCounting\obj\Debug\netcoreapp3.1\WordCounting.dll
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCounting\obj\Debug\netcoreapp3.1\WordCounting.pdb

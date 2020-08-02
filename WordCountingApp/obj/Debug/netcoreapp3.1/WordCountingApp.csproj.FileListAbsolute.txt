@@ -25,3 +25,4 @@ C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcore
 C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcoreapp3.1\WordCountingApp.AssemblyInfo.cs
 C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcoreapp3.1\WordCountingApp.csproj.CoreCompileInputs.cache
 C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcoreapp3.1\WordCountingApp.genruntimeconfig.cache
+C:\Users\Keega\source\repos\Test-Word-Counting\WordCountingApp\obj\Debug\netcoreapp3.1\WordCountingApp.csprojAssemblyReference.cache

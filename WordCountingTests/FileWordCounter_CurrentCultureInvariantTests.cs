@@ -26,9 +26,9 @@ namespace WordCounting.Tests
             };
 
             _expectedWordsPerLine = new List<List<string>>();
-            _expectedWordsPerLine.Add(new List<string>() { "This", "is", "my", "test", "File", "which", "contains", "some", "text" });
+            _expectedWordsPerLine.Add(new List<string>() { "This", "is", "my", "test", "file", "which", "contains", "some", "text" });
             _expectedWordsPerLine.Add(new List<string>() { "this", "checks", "if", "it's", "a", "word", "or", "a", "number", "or", "just", "punctuation" });
-            _expectedWordsPerLine.Add(new List<string>() { "Seventy-five", "is", "one word", "don't", "is", "one" });
+            _expectedWordsPerLine.Add(new List<string>() { "Seventy-five", "is", "one", "word", "don't", "is", "one" });
             _expectedWordsPerLine.Add(new List<string>() { "Emmerich", "Emmerich's", "Emmerichs", "are", "different" });
 
             _testFileWordCounts = new Dictionary<string, int>(StringComparer.CurrentCultureIgnoreCase);
@@ -74,9 +74,9 @@ namespace WordCounting.Tests
 
             List<string> expectedWords = new List<string>()
             {
-                "This", "is", "my", "test", "File", "which", "contains", "some", "text",
+                "This", "is", "my", "test", "file", "which", "contains", "some", "text",
                 "this", "checks", "if", "it's", "a", "word", "or", "a", "number", "or", "just", "punctuation",
-                "Seventy-five", "is", "one word", "don't", "is", "one",
+                "Seventy-five", "is", "one", "word", "don't", "is", "one",
                 "Emmerich", "Emmerich's", "Emmerichs", "are", "different"
             };
 
@@ -86,9 +86,9 @@ namespace WordCounting.Tests
         }
 
         [Test]
-        public void WordsFromString_Null_ReturnsEmptyWordList()
+        public void WordsFromString_Null_ThrowArgumentNullException()
         {
-            Assert.AreEqual(new List<string>(), FileWordCounter.WordsFromString(null));
+            Assert.Throws<ArgumentNullException>(()=>FileWordCounter.WordsFromString(null));
         }
 
         [Test]
